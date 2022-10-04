@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Text } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -12,43 +13,89 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <div className={styles.grid}>{/* Colocar imagem de fundo */}
+          <h1 className={styles.title}>
+            Sistema da informação na empresa
+          </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
+          <p className={styles.description}>
+            Principais características e qual escolher?
+          </p> 
+          <Text fontSize='20px'className={styles.container.grid}>
+            Sistema de informação pode ser dito como um conjunto formado por pessoas, software,
+            hardware, procedimentos e dados. Onde fica responsável por
+            difundir as informações através da organização. 
+          </Text>
+        </div>
+       
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <a className={styles.container}>
+            <h2>Planejamento de Recursos Empresariais - (ERP)</h2>
+            <Text fontSize='20px'>
+          
+            Basicamente e “Um pacote de software de negócios que permite a uma companhia
+            automatizar e integrar a maioria de seus processos de negócios”(Souza & Zwicker, 2000). 
+            </Text>
+            <Text fontSize='20px'>
+            Sendo um dos principais modeloas a serem utilizados em uma empresa o ERP (Enterprise Resource Planning)
+            e um software de sesenvolvimento para gerenciar os departamentos de um negocio.
+            Esse metodo mantem as informações sentralizadas em um lugar agilizando os processos de tomada de decisão 
+            entre as principais vantagems temos um almento na comunicação e conexão das ares, alem disso também melhora
+            a trasparencia um exemplo seria para monitorar um estoque.
+            Esse metodos gera uma maior segurança nos dados e otimização dos custos de TI melhorando o planejamento.
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            </Text>
           </a>
+        </div>
+        <div className={styles.grid}>
+          <a className={styles.container}>
+            <h2>Gestão de Relacionamento com o Cliente - (CRM)</h2>
+            <Text fontSize='20px'>
+              Ele e tem como principal funcionalidade inpactar os clientes de maneira objetiva
+              tornando-se muito util a um time de vendas fevido as suas funções e rotinas.
+              Basicamente o CRM leva em conta as caracteriasticas do clientes estando voltado principalmente a ele 
+              podendo ser adaptado a outrso pontos de trabalho como pesquisas sobre fornecedores, redução da rotatividade, 
+              identificação de diferenciais competitivos dentre outros.
+            </Text>
+          </a>
+        </div>
+        <div className={styles.grid}>
+          <a className={styles.container}>
+            <h2>Gestão de Processos de Negócios (BPM)</h2>
+            <Text fontSize='20px'>
+              Também conhecido como Gerenciamento de Processos de Negócios, o BPM é um conjunto 
+              de práticas de gestão integrada que focam a avaliação e identificação das oportunidades
+              de melhoria em seu negócio. A lógica costuma ser muito simples. Para que o crescimento 
+              aconteça, torna-se indispensável conhecer a fundo todos os processos envolvidos 
+              na realização do trabalho.
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+              Dessa maneira, o sistema permite estudar sobre desempenhos individuais, de equipes
+              e áreas importantes para que os gestores consigam tomar melhores decisões. Os resultados, 
+              nesse caso, acontecem por meio da reunião de avaliações técnicas e tecnologia.
+              No entanto, quando chega o momento de aplicar esses resultados na prática, 
+              o software será responsável por ajudar a direcionar todos os processos com monitoramento 
+              detalhado. Considere, também, que ele é um bom aliado na hora de encontrar gargalos na
+              operação e direcionar melhor os recursos disponíveis na empresa.
+            </Text>
           </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+        </div>
+        <div className={styles.grid}>
+          <a className={styles.container}>
+            <h2>Qual escolher</h2>
+            <Text fontSize='20px'>O sistema empresarial permite o controle de todos os diferentes serviços em um só lugar!
+              Quando se consegue concentrar as informações em um só local, a tarefa
+              fica menos suscetível a erros e tem seu tempo de exceção e 
+              elaboração de relatórios otimizado.</Text>
           </a>
+          <div>
+          <a className={styles.container}>
+            <h2>Qual escolher</h2>
+            <Text fontSize='20px'>O sistema empresarial permite o controle de todos os diferentes serviços em um só lugar!
+              Quando se consegue concentrar as informações em um só local, a tarefa
+              fica menos suscetível a erros e tem seu tempo de exceção e 
+              elaboração de relatórios otimizado.</Text>
+          </a>
+        </div>
         </div>
       </main>
 
@@ -64,11 +111,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-
-
-      <div>
-        Thiago
-      </div>
     </div>
   )
 }
