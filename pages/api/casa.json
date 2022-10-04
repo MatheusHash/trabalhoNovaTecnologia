@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Mansao",
+        "price": "950,00",
+        "description": "Imovel construido recentemente, unico dono"
+    },
+    {
+        "id": "2",
+        "title": "Casa abandonada",
+        "price": "50,00",
+        "description": "Imovel construido recentemente, unico dono"
+    },
+    {
+        "id": "3",
+        "title": "Kitnet",
+        "price": "350,00",
+        "description": "Imovel construido recentemente, unico dono"
+    },
+    {
+        "id": "4",
+        "title": "Casa popular",
+        "price": "650,00",
+        "description": "Imovel construido recentemente, unico dono"
+    }
+]
