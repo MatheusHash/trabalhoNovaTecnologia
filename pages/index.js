@@ -6,14 +6,27 @@ import { Text } from '@chakra-ui/react'
 export default function Home() {
   return (
     <>
+    <div>
     <div className={styles.img}>
-          <h1 className={styles.title}>
-            
-          </h1>
-          <h1 className={styles.title}>
-            Sistema da informação na empresa
-          </h1>
+      <h1 className={styles.title}>
+        Sistema da informação na empresa
+      </h1>
+    </div>
+    <div >
+      <div className={styles.junta}>
+        <a>Planejamento de Recursos</a>
       </div>
+      <div className={styles.junta}>
+        <a>Gestão de Relacionamento</a>
+      </div>
+      <div className={styles.junta}>
+        <a>Qual escolher</a>
+      </div>
+      <div className={styles.junta}>
+          <a>Diante disso</a>
+      </div>
+    </div>
+    </div>
 
     <div className={styles.container}>
       
