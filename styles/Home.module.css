@@ -3,8 +3,8 @@
 }
 .img{
   background-image: url("/fundo1.webp");
-  height: 500px;
-  width: 100vw;
+  height: 350px;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -49,9 +49,13 @@
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom:0%;
+  margin-right: 40%;
+  line-height: 1.0;
   font-size: 4rem;
+  position: absolute;
 }
 
 .title,
