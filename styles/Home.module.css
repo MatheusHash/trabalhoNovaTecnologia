@@ -14,12 +14,9 @@ nav .menu{
   margin: 22px;
   font-size: larger;
   display: inline-block;
-
   border-radius: 4px;
 }
-.flex{
-  display: flex;
-}
+
 .link:hover{
   background-color: #eaeaea;
   transition: transform .3s ease-out;
@@ -137,12 +134,26 @@ nav .menu{
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
-
-.grid {
+.flex2 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+.tamanho{
+  width: 50%;
+  height: 600px;
+}
+.altura{
+  height: 100vh;
+  margin: 250px;
   max-width: 800px;
 }
 

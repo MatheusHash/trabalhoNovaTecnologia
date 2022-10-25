@@ -36,23 +36,23 @@ export default function Home() {
             <p className={styles.description}>
               Principais características e qual escolher?
             </p> 
-            <Text fontSize='20px'className={styles.container.grid}>
+            <Text fontSize='20px'className={styles.flex}>
               Sistema de informação pode ser dito como um conjunto formado por pessoas,
               software, hardware, procedimentos e dados. Onde fica responsável por 
               difundir as informações através da organização. 
             </Text>
           </div>
         
-          <div id='planejamento' className={styles.grid.flex}>
-            <div className={styles.container}>
+          <div id='planejamento' className={styles.altura}>
+            <div>
               <h2>Planejamento de Recursos Empresariais - (ERP)</h2>
               <Text fontSize='20px'>
                 Basicamente é "Um pacote de software de negócios que permite a uma companhia automatizar e integrar 
                 a maioria de seus processos de negócios”(Souza & Zwicker, 2000).
               </Text>
               <Text fontSize='20px'>
-              Sendo um dos principais modelos a serem utilizados em uma empresa, o ERP (Enterprise Resource Planning)
-              é um software de desenvolvimento para gerenciar os departamentos de um negócio.
+                Sendo um dos principais modelos a serem utilizados em uma empresa, o ERP (Enterprise Resource Planning)
+                é um software de desenvolvimento para gerenciar os departamentos de um negócio.
               </Text>
 
               <Text fontSize='20px'>
@@ -63,36 +63,39 @@ export default function Home() {
               </Text>
             
               <Text fontSize='20px'>
-              Esse método gera uma maior segurança nos dados e otimização dos 
-              custos de TI melhorando o planejamento.
+                Esse método gera uma maior segurança nos dados e otimização dos 
+                custos de TI melhorando o planejamento.
               </Text>
             </div>
-            <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GsshtMhb8b0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div  margin-bottom={50}>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/GsshtMhb8b0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
 
-          <div id='gestao' className={styles.grid.flex}>
-            <div className={styles.container}>
+          <div id='gestao' className={[styles.flex]}>
+            <div className={styles.tamanho}>
               <h2>Gestão de Relacionamento com o Cliente - (CRM)</h2>
               <Text fontSize='20px'>
                 Ele tem como principal funcionalidade impactar os clientes de maneira 
                 objetiva tornando-se muito útil a um time de vendas devido às suas funções e rotinas.
               </Text>
               <Text fontSize='20px'>
-              Basicamente o CRM leva em conta as características do clientes estando
+                Basicamente o CRM leva em conta as características do clientes estando
                 voltado principalmente a ele podendo ser adaptado a outros pontos de trabalho
                 como pesquisas sobre fornecedores, redução da rotatividade, identificação
                 de diferenciais competitivos dentre outros.
               </Text>
             </div>
-            <div>
-            <Image src="/CRM.png" alt="CRM" width={300} height={300} />
+            <div className={[styles.tamanho]}>
+              <Image src="/CRM.png" alt="CRM" width={300} height={300} />
             </div>
           </div>
-
-          <div className={styles.grid.flex}>
-            <div className={styles.container}>
+          
+          <div className={[styles.flex]}>
+            <div className={styles.tamanho}>
+              <Image src="/BPM.jpeg" alt="BPM" width={300} height={300} />
+            </div>
+            <div className={styles.tamanho}>
               <h2>Gestão de Processos de Negócios (BPM)</h2>
               <Text fontSize='20px'>
                 Basicamente formado por um conjunto de práticas de gestão e seu principal
@@ -108,14 +111,14 @@ export default function Home() {
                 gargalos nas operações e direcionamentos de recursos da empresa.
               </Text>
             </div>
-            <div>
-            <Image src="/BPM.jpeg" alt="BPM" width={300} height={300} />
-            </div>
+
+           
+
           </div>
 
 
-          <div id='escolha' className={styles.grid}>
-            <div className={styles.container}>
+          <div id='escolha' className={styles.flex}>
+            <div>
               <h2>Qual escolher?</h2>
               <Text fontSize='20px'>
                 Existem muitos outros sistemas disponíveis no mercado e por causa disso você 
@@ -136,26 +139,26 @@ export default function Home() {
             
           </div>
         </main>
-      <div className={styles.flex}>
-        <div>
-        <Text fontSize='10px'>
-          Alunos:
-        </Text>
-        <Text fontSize='10px'>
-          Thiago Silva de Paula
-        </Text>
-        <Text fontSize='10px'>
-          Matheus Ferreira Pimenta
-        </Text>
+      <div className={[styles.flex2]}>
+        <div >
+          <Text fontSize='10px'>
+            Alunos:
+          </Text>
+          <Text fontSize='10px'>
+            Thiago Silva de Paula
+          </Text>
+          <Text fontSize='10px'>
+            Matheus Ferreira Pimenta
+          </Text>
         </div>
         
-        <footer className={styles.footer}>
+        <footer className={[styles.footer]}>
           <a
             href="https://portal.pas.ifsuldeminas.edu.br/images/1_Campus_Passos/2018/Logo_IF_Hor.png"
             target="_blank"
             rel="noopener noreferrer"
           >
-              {' '}
+             
             <span className={styles.logo}>
               <Image src="/Logo_IF_Hor.png" alt="If-Passos" width={72} height={16} />
             </span>
