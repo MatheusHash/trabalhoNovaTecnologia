@@ -17,7 +17,9 @@ nav .menu{
 
   border-radius: 4px;
 }
-
+.flex{
+  display: flex;
+}
 .link:hover{
   background-color: #eaeaea;
   transition: transform .3s ease-out;

@@ -43,7 +43,7 @@ export default function Home() {
             </Text>
           </div>
         
-          <div id='planejamento' className={styles.grid}>
+          <div id='planejamento' className={styles.grid.flex}>
             <div className={styles.container}>
               <h2>Planejamento de Recursos Empresariais - (ERP)</h2>
               <Text fontSize='20px'>
@@ -67,9 +67,12 @@ export default function Home() {
               custos de TI melhorando o planejamento.
               </Text>
             </div>
+            <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GsshtMhb8b0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
 
-          <div id='gestao' className={styles.grid}>
+          <div id='gestao' className={styles.grid.flex}>
             <div className={styles.container}>
               <h2>Gestão de Relacionamento com o Cliente - (CRM)</h2>
               <Text fontSize='20px'>
@@ -83,9 +86,12 @@ export default function Home() {
                 de diferenciais competitivos dentre outros.
               </Text>
             </div>
+            <div>
+            <Image src="/CRM.png" alt="CRM" width={300} height={300} />
+            </div>
           </div>
 
-          <div className={styles.grid}>
+          <div className={styles.grid.flex}>
             <div className={styles.container}>
               <h2>Gestão de Processos de Negócios (BPM)</h2>
               <Text fontSize='20px'>
@@ -101,6 +107,9 @@ export default function Home() {
                 O software fica responsável por ajudar a direcionar todos os processos e encontrar
                 gargalos nas operações e direcionamentos de recursos da empresa.
               </Text>
+            </div>
+            <div>
+            <Image src="/BPM.jpeg" alt="BPM" width={300} height={300} />
             </div>
           </div>
 
@@ -127,7 +136,19 @@ export default function Home() {
             
           </div>
         </main>
-
+      <div className={styles.flex}>
+        <div>
+        <Text fontSize='10px'>
+          Alunos:
+        </Text>
+        <Text fontSize='10px'>
+          Thiago Silva de Paula
+        </Text>
+        <Text fontSize='10px'>
+          Matheus Ferreira Pimenta
+        </Text>
+        </div>
+        
         <footer className={styles.footer}>
           <a
             href="https://portal.pas.ifsuldeminas.edu.br/images/1_Campus_Passos/2018/Logo_IF_Hor.png"
@@ -140,6 +161,8 @@ export default function Home() {
             </span>
           </a>
         </footer>
+      </div>
+        
     </div>
     </>
   )
