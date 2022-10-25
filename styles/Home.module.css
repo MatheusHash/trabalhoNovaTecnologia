@@ -1,13 +1,47 @@
 .container {
   padding: 0 2rem;
 }
+
+nav .menu{
+  padding-top: 15px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link{
+  padding: 10px 10px 10px 2px;
+  margin: 22px;
+  font-size: larger;
+  display: inline-block;
+
+  border-radius: 4px;
+}
+
+.link:hover{
+  background-color: #eaeaea;
+  transition: transform .3s ease-out;
+  transform: translate(0, -5px);
+}
+
+.navbar{
+  display: flex;
+  /* margin: 0 auto; */
+  margin: 28px 0;
+  justify-content: center;
+  color: #0070f3;
+  font-size: larger;
+}
+
 .img{
-  background-image: url("/fundo1.webp");
-  height: 350px;
+  background-image: url("https://i.ytimg.com/vi/bYRwlWgdDzI/maxresdefault.jpg");
+
+  height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: inherit;
   margin: 0 auto;
   position: relative;
   display: flex;
