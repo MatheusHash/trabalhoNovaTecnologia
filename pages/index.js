@@ -30,8 +30,7 @@ export default function Home() {
         
         <main className={styles.main}>
         
-          <div className={styles.grid}>{/* Colocar imagem de fundo */}
-          
+          <div className={styles.flex}>{/* Colocar imagem de fundo */}
 
             <p className={styles.description}>
               Principais características e qual escolher?
@@ -67,7 +66,7 @@ export default function Home() {
                 custos de TI melhorando o planejamento.
               </Text>
             </div>
-            <div  margin-bottom={50}>
+            <div className={styles.flex_vid}>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/GsshtMhb8b0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
