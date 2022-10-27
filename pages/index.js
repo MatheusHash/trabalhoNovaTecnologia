@@ -46,8 +46,8 @@ export default function Home() {
             <div>
               <h2>Planejamento de Recursos Empresariais - (ERP)</h2>
               <Text fontSize='20px'>
-                Basicamente é "Um pacote de software de negócios que permite a uma companhia automatizar e integrar 
-                a maioria de seus processos de negócios”(Souza & Zwicker, 2000).
+                Basicamente é &apos Um pacote de software de negócios que permite a uma companhia automatizar e integrar 
+                a maioria de seus processos de negócios &apos(Souza & Zwicker, 2000).
               </Text>
               <Text fontSize='20px'>
                 Sendo um dos principais modelos a serem utilizados em uma empresa, o ERP (Enterprise Resource Planning)
